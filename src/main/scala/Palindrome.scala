@@ -1,4 +1,4 @@
-object Palindrome{
+object Palindrome {
   def checkPalindrome(string: String): String = {
     try {
       val reversed_string = string.reverse
