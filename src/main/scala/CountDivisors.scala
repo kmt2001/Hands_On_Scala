@@ -3,7 +3,7 @@ object CountDivisors {
     var count_divisibility = 0
     for (i <- number1 to number2) {
       if (i % number3 == 0) {
-        count_divisibility += 1
+        count_divisibility += 1 //
       }
     }
     return count_divisibility
